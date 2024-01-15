@@ -9973,12 +9973,6 @@
     },
     "done": true
   },
-  "minecraft:story/deflect_arrow": {
-    "criteria": {
-      "deflected_projectile": "2024-01-14 20:36:49 +0800"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/decorations/blue_hanging_canvas_sign": {
     "criteria": {
       "has_hanging_canvas_sign": "2024-01-14 19:57:48 +0800"
@@ -10072,6 +10066,12 @@
   "farmersdelight:recipes/decorations/purple_hanging_canvas_sign": {
     "criteria": {
       "has_hanging_canvas_sign": "2024-01-14 19:57:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-01-14 20:36:49 +0800"
     },
     "done": true
   },
