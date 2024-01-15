@@ -5204,6 +5204,7 @@
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
       "tomato": "2024-01-07 14:10:03 +0800",
+      "brown_mushroom": "2024-01-16 01:12:28 +0800",
       "red_mushroom": "2024-01-12 16:13:33 +0800",
       "wheat": "2024-01-07 02:05:36 +0800"
     },
@@ -10309,6 +10310,12 @@
   "aether:recipes/combat/chainmail_leggings_repairing": {
     "criteria": {
       "has_chainmail_leggings": "2024-01-12 21:35:35 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/leather_helmet_repairing": {
+    "criteria": {
+      "has_leather_helmet": "2024-01-16 00:34:25 +0800"
     },
     "done": true
   },

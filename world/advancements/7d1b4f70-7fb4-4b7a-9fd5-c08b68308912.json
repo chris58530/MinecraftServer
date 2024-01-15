@@ -10075,5 +10075,23 @@
     },
     "done": true
   },
+  "twilightforest:recipes/decorations/uncrafting_table": {
+    "criteria": {
+      "has_uncrafting_table": "2024-01-16 01:41:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2024-01-16 01:08:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2024-01-16 01:08:42 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
