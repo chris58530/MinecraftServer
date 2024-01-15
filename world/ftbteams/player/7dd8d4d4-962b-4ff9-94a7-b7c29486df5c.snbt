@@ -1,0 +1,17 @@
+{
+	id: "7dd8d4d4-962b-4ff9-94a7-b7c29486df5c"
+	type: "player"
+	player_name: "chris58530"
+	ranks: {
+		7dd8d4d4-962b-4ff9-94a7-b7c29486df5c: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "chris58530"
+		"ftbteams:description": ""
+		"ftbteams:color": "#599BFF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

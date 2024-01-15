@@ -1,0 +1,27 @@
+{
+	id: "f622f627-108c-4dbb-ad4f-5cb241fbc45f"
+	type: "party"
+	owner: "6552a895-cd9f-4e38-8691-de9b33235e2f"
+	ranks: {
+		b753ec54-b8f6-4eea-b7d6-9b8db45fa69c: "officer"
+		6552a895-cd9f-4e38-8691-de9b33235e2f: "owner"
+		abdd3149-7c93-422e-90e2-42472a7fb55a: "officer"
+	}
+	properties: {
+		"ftbteams:display_name": "大雞巴隊"
+		"ftbteams:description": "Big DD"
+		"ftbteams:color": "#FFD859"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1704474492195L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Avocado_Milk\"}]}" }
+		{ from: "6552a895-cd9f-4e38-8691-de9b33235e2f", date: 1704474514931L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"coldwater1020\"}]}" }
+		{ from: "6552a895-cd9f-4e38-8691-de9b33235e2f", date: 1704474514931L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"chris58510\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1704474519814L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"coldwater1020\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1704474568080L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"chris58510\"}]}" }
+		{ from: "6552a895-cd9f-4e38-8691-de9b33235e2f", date: 1704546043584L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.promoted\",\"with\":[{\"color\":\"yellow\",\"text\":\"chris58510\"}]}" }
+		{ from: "6552a895-cd9f-4e38-8691-de9b33235e2f", date: 1704546051572L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.promoted\",\"with\":[{\"color\":\"yellow\",\"text\":\"coldwater1020\"}]}" }
+	]
+	extra: { }
+}

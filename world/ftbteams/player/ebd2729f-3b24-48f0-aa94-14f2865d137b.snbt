@@ -1,0 +1,17 @@
+{
+	id: "ebd2729f-3b24-48f0-aa94-14f2865d137b"
+	type: "player"
+	player_name: "ginlee"
+	ranks: {
+		ebd2729f-3b24-48f0-aa94-14f2865d137b: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "ginlee"
+		"ftbteams:description": ""
+		"ftbteams:color": "#8BFF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
