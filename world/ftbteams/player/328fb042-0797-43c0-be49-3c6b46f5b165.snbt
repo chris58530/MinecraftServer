@@ -1,0 +1,17 @@
+{
+	id: "328fb042-0797-43c0-be49-3c6b46f5b165"
+	type: "player"
+	player_name: "Fqdeeee"
+	ranks: {
+		328fb042-0797-43c0-be49-3c6b46f5b165: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Fqdeeee"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FFEB59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

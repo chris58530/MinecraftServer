@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "abdd31497c93422e90e242472a7fb55a"
+	name: "coldwater1020#abdd3149"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		0470194500CBE26C: 1
+	}
+	started: {
+		1D4E5CDD59FFB7A0: 1704474400157L
+		2574E7CF699D5B45: 1704474400157L
+		0470194500CBE26C: 1704474400157L
+		0000000000000001: 1704474400157L
+	}
+	completed: {
+		2574E7CF699D5B45: 1704474400157L
+		0470194500CBE26C: 1704474400157L
+	}
+	claimed_rewards: { }
+	player_data: { }
+}
