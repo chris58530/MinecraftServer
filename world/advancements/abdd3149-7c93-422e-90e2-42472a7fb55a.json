@@ -5082,6 +5082,7 @@
       "canopy_planks": "2024-01-14 19:09:27 +0800",
       "twilight_oak_chest": "2024-01-08 02:05:01 +0800",
       "twilight_oak_log": "2024-01-08 14:04:52 +0800",
+      "twilight_oak_sapling": "2024-01-16 15:23:51 +0800",
       "canopy_log": "2024-01-12 03:59:10 +0800"
     },
     "done": false
@@ -10508,15 +10509,57 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/dumplings": {
+    "criteria": {
+      "has_any_ingredient": "2024-01-16 04:50:50 +0800"
+    },
+    "done": true
+  },
   "supplementaries:recipes/soap/map": {
     "criteria": {
       "has_filled_map": "2024-01-16 05:26:37 +0800"
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/dumplings": {
+  "minecraft:nether/get_wither_skull": {
     "criteria": {
-      "has_any_ingredient": "2024-01-16 04:50:50 +0800"
+      "wither_skull": "2024-01-16 15:27:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2024-01-16 15:27:14 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/birch_banister": {
+    "criteria": {
+      "has_item": "2024-01-16 14:40:36 +0800"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/birch_flower_box": {
+    "criteria": {
+      "has_slab": "2024-01-16 14:40:36 +0800"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/birch_shutter": {
+    "criteria": {
+      "has_slab": "2024-01-16 14:40:36 +0800"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/birch_bench": {
+    "criteria": {
+      "has_slab": "2024-01-16 14:40:36 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/tables/birch_table_slab": {
+    "criteria": {
+      "has_bamboo": "2024-01-16 14:40:36 +0800"
     },
     "done": true
   },
