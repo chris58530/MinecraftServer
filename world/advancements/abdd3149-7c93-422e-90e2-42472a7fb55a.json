@@ -3031,6 +3031,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-01-08 03:05:30 +0800",
+      "minecraft:blaze": "2024-01-16 05:20:14 +0800",
       "minecraft:skeleton": "2024-01-07 19:01:44 +0800",
       "minecraft:vindicator": "2024-01-08 03:06:02 +0800",
       "minecraft:spider": "2024-01-07 10:58:35 +0800",
@@ -4007,6 +4008,7 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
+      "cabbage": "2024-01-16 01:57:16 +0800",
       "sweet_berries": "2024-01-08 04:41:39 +0800",
       "sugar_cane": "2024-01-11 14:57:28 +0800",
       "potato": "2024-01-07 20:30:04 +0800",
@@ -5076,6 +5078,7 @@
   "twilightforest:arborist": {
     "criteria": {
       "twilight_oak_planks": "2024-01-07 19:35:17 +0800",
+      "canopy_sign": "2024-01-16 05:22:25 +0800",
       "canopy_planks": "2024-01-14 19:09:27 +0800",
       "twilight_oak_chest": "2024-01-08 02:05:01 +0800",
       "twilight_oak_log": "2024-01-08 14:04:52 +0800",
@@ -10478,6 +10481,42 @@
   "supplementaries:recipes/rope": {
     "criteria": {
       "forge:crops/flax": "2024-01-14 21:33:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2024-01-16 01:56:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2024-01-16 01:56:42 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cabbage_rolls": {
+    "criteria": {
+      "has_any_ingredient": "2024-01-16 04:50:50 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/cabbage_crate": {
+    "criteria": {
+      "has_cabbage": "2024-01-16 04:50:50 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/soap/map": {
+    "criteria": {
+      "has_filled_map": "2024-01-16 05:26:37 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dumplings": {
+    "criteria": {
+      "has_any_ingredient": "2024-01-16 04:50:50 +0800"
     },
     "done": true
   },
