@@ -31,6 +31,7 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "muskeg": "2024-01-16 22:31:50 +0800",
       "shrubland": "2024-01-06 01:05:53 +0800",
       "rocky_shrubland": "2024-01-06 19:39:20 +0800",
       "erupting_inferno": "2024-01-11 19:06:59 +0800",
@@ -38,6 +39,7 @@
       "jade_cliffs": "2024-01-06 19:33:31 +0800",
       "clover_patch": "2024-01-06 19:22:28 +0800",
       "mystic_grove": "2024-01-06 21:24:22 +0800",
+      "crystalline_chasm": "2024-01-16 21:57:20 +0800",
       "orchard": "2024-01-06 19:22:50 +0800",
       "field": "2024-01-08 03:13:26 +0800",
       "lavender_forest": "2024-01-06 20:04:54 +0800",
@@ -47,6 +49,7 @@
       "seasonal_forest": "2024-01-08 02:51:37 +0800",
       "lavender_field": "2024-01-06 20:04:03 +0800",
       "fir_clearing": "2024-01-08 04:00:23 +0800",
+      "pumpkin_patch": "2024-01-16 22:28:04 +0800",
       "prairie": "2024-01-06 01:15:55 +0800",
       "grassland": "2024-01-06 19:54:51 +0800",
       "undergrowth": "2024-01-08 00:58:46 +0800"
@@ -3033,12 +3036,16 @@
       "minecraft:pillager": "2024-01-08 03:05:30 +0800",
       "minecraft:blaze": "2024-01-16 05:20:14 +0800",
       "minecraft:skeleton": "2024-01-07 19:01:44 +0800",
+      "minecraft:hoglin": "2024-01-16 21:42:20 +0800",
       "minecraft:vindicator": "2024-01-08 03:06:02 +0800",
+      "minecraft:magma_cube": "2024-01-16 21:59:05 +0800",
       "minecraft:spider": "2024-01-07 10:58:35 +0800",
       "minecraft:creeper": "2024-01-07 10:56:53 +0800",
       "minecraft:slime": "2024-01-14 05:27:26 +0800",
       "minecraft:phantom": "2024-01-11 16:26:22 +0800",
+      "minecraft:wither_skeleton": "2024-01-16 21:59:23 +0800",
       "minecraft:cave_spider": "2024-01-06 19:55:43 +0800",
+      "minecraft:piglin": "2024-01-16 21:42:57 +0800",
       "minecraft:silverfish": "2024-01-09 01:20:19 +0800",
       "minecraft:enderman": "2024-01-14 21:15:20 +0800",
       "minecraft:zombie": "2024-01-06 19:28:05 +0800",
@@ -4010,6 +4017,7 @@
     "criteria": {
       "cabbage": "2024-01-16 01:57:16 +0800",
       "sweet_berries": "2024-01-08 04:41:39 +0800",
+      "tomato": "2024-01-16 21:17:07 +0800",
       "sugar_cane": "2024-01-11 14:57:28 +0800",
       "potato": "2024-01-07 20:30:04 +0800",
       "wheat": "2024-01-07 18:40:58 +0800",
@@ -10521,18 +10529,6 @@
     },
     "done": true
   },
-  "minecraft:nether/get_wither_skull": {
-    "criteria": {
-      "wither_skull": "2024-01-16 15:27:14 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/skull_banner_pattern": {
-    "criteria": {
-      "has_wither_skeleton_skull": "2024-01-16 15:27:14 +0800"
-    },
-    "done": true
-  },
   "twilightforest:recipes/decorations/wood/birch_banister": {
     "criteria": {
       "has_item": "2024-01-16 14:40:36 +0800"
@@ -10560,6 +10556,918 @@
   "twigs:recipes/tables/birch_table_slab": {
     "criteria": {
       "has_bamboo": "2024-01-16 14:40:36 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2024-01-16 15:27:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2024-01-16 15:27:14 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/gardens_of_the_dead/soulblight_parquet": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/bisque": {
+    "criteria": {
+      "has_any_ingredient": "2024-01-16 20:54:47 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/biomesoplenty/redwood_lattice": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/biomesoplenty/magic_parquet": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/biomesoplenty/magic_sanded_wood": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/nether_brick_paver_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/nether_brick_pillar_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template": {
+    "criteria": {
+      "has_sentry_armor_trim_smithing_template": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/biomesoplenty/magic_drawer": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/biomesoplenty/magic_trim_1": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/nether_brick_shingle_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-01-16 20:41:11 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/bp/biomesoplenty/redwood_backpack_shelf": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/gardens_of_the_dead/soulblight_sanded_wood": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cooked_clawster": {
+    "criteria": {
+      "has_any_ingredient": "2024-01-16 20:54:47 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/redwood_sign": {
+    "criteria": {
+      "has_redwood_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/biomesoplenty/magic_flower_box": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/magic_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/db/biomesoplenty/magic_seat": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/biomesoplenty/magic_lattice": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/gardens_of_the_dead/soulblight_lattice": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/magic_stairs": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/hot_cocoa": {
+    "criteria": {
+      "has_any_ingredient": "2024-01-16 20:37:45 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/nether_brick_paver_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/db/biomesoplenty/magic_support": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/decorations/nether_brick_smoker": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/nether_brick_pavers_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/biomesoplenty/redwood_parquet": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/biomesoplenty/redwood_drawer": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "gardens_of_the_dead:recipes/redstone/soulblight_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "friendsandfoes:nether/obtain_wildfire_crown": {
+    "criteria": {
+      "wildfire_crown": "2024-01-16 22:23:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2024-01-16 20:35:52 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/biomesoplenty/magic_bench": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/biomesoplenty/magic_vertical_trim": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2024-01-16 22:27:19 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/biomesoplenty/redwood_shutter": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/tf/gardens_of_the_dead/soulblight_banister": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/biomesoplenty/magic_chair": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/biomesoplenty/redwood_chair": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "gardens_of_the_dead:recipes/redstone/soulblight_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/tw/biomesoplenty/magic_table": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/food/hoglin_sirloin": {
+    "criteria": {
+      "hoglin_sirloin": "2024-01-16 21:42:22 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/dark_oak_cabinet": {
+    "criteria": {
+      "has_dark_oak_trapdoor": "2024-01-17 00:35:47 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/nether_brick_plate_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/magic_door": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "gardens_of_the_dead:recipes/building_blocks/soulblight_stairs": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2024-01-16 20:49:14 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/rose_quartz_block": {
+    "criteria": {
+      "has_rose_quartz_chunk": "2024-01-16 21:57:52 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/db/gardens_of_the_dead/soulblight_palisade": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "gardens_of_the_dead:recipes/redstone/soulblight_door": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/nether_brick_shingle_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2024-01-16 20:42:35 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/nether_brick_plates_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/redwood_fence": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "suppsquared:recipes/decorations/biomesoplenty/item_shelf_magic": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/magic_slab": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/biomesoplenty/redwood_trim": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "gardens_of_the_dead:recipes/decorations/soulblight_fence": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/tf/biomesoplenty/magic_banister": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2024-01-16 22:27:19 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "gardens_of_the_dead:recipes/decorations/soulblight_sign": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/gardens_of_the_dead/soulblight_table": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/db/biomesoplenty/magic_beam": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/biomesoplenty/magic_shutter": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/biomesoplenty/magic_shelf": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/nether_brick_paver_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/nether_brick_plate_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/biomesoplenty/redwood_bench": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/food/warped_moldy_meat": {
+    "criteria": {
+      "has_sirloin": "2024-01-16 23:09:56 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/faf/biomesoplenty/redwood_beehive": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/biomesoplenty/redwood_vertical_trim": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/db/biomesoplenty/redwood_support": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/glow_berry_custard": {
+    "criteria": {
+      "has_any_ingredient": "2024-01-16 20:37:45 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/gardens_of_the_dead/soulblight_flower_box": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/nether_brick_shingles_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/food/hoglin_sirloin_from_campfire_cooking": {
+    "criteria": {
+      "hoglin_sirloin": "2024-01-16 21:42:22 +0800"
+    },
+    "done": true
+  },
+  "gardens_of_the_dead:recipes/redstone/soulblight_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/nether_brick_shingle_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/db/gardens_of_the_dead/soulblight_seat": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "gardens_of_the_dead:recipes/redstone/soulblight_button": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "gardens_of_the_dead:recipes/building_blocks/soulblight_planks": {
+    "criteria": {
+      "has_logs": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/biomesoplenty/redwood_sanded_wood": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/crocodile": {
+    "criteria": {
+      "killed_by": "2024-01-16 21:46:45 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/fd/biomesoplenty/magic_cabinet": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/bp/biomesoplenty/magic_backpack_shelf": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/biomesoplenty/redwood_flower_box": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "netherchested:recipes/decorations/nether_chest": {
+    "criteria": {
+      "has_nether_star": "2024-01-16 20:42:35 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/db/biomesoplenty/redwood_palisade": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/biomesoplenty/redwood_shelf": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/faf/gardens_of_the_dead/soulblight_beehive": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/biomesoplenty/redwood_trim_1": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/gardens_of_the_dead/soulblight_bench": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/copper_pillar/waxed_copper_pillar": {
+    "criteria": {
+      "has_waxed_cut_copper_slab": "2024-01-17 00:35:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "in_better_fortress": "2024-01-16 21:58:30 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/gardens_of_the_dead/soulblight_drawer": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/milk_bottle": {
+    "criteria": {
+      "has_milk_bucket": "2024-01-16 20:37:45 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/db/biomesoplenty/redwood_seat": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/biomesoplenty/redwood_table": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/gardens_of_the_dead/sign_post_soulblight": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/biomesoplenty/magic_table": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/tf/biomesoplenty/redwood_banister": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/magic_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_sword_repairing": {
+    "criteria": {
+      "has_golden_sword": "2024-01-16 21:59:43 +0800"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/food/hoglin_sirloin_from_smoking": {
+    "criteria": {
+      "hoglin_sirloin": "2024-01-16 21:42:22 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_button": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/db/biomesoplenty/redwood_beam": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "crabbersdelight:recipes/building_blocks/clawster_barrel": {
+    "criteria": {
+      "has_clawster": "2024-01-16 20:54:47 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/gardens_of_the_dead/soulblight_vertical_trim": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/magic_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "suppsquared:recipes/decorations/biomesoplenty/item_shelf_redwood": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/gardens_of_the_dead/soulblight_chair": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/magic_button": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/db/gardens_of_the_dead/soulblight_support": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/fd/gardens_of_the_dead/soulblight_cabinet": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2024-01-16 22:29:14 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/gardens_of_the_dead/soulblight_trim": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/biomesoplenty/sign_post_redwood": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/magic_sign": {
+    "criteria": {
+      "has_magic_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_door": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/redwood_slab": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "suppsquared:recipes/decorations/gardens_of_the_dead/item_shelf_soulblight": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/nether_brick_plate_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-01-16 21:58:37 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/tw/gardens_of_the_dead/soulblight_table": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/db/biomesoplenty/magic_palisade": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/redwood_stairs": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "gardens_of_the_dead:recipes/building_blocks/soulblight_hyphae": {
+    "criteria": {
+      "has_log": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/gardens_of_the_dead/soulblight_shutter": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/biomesoplenty/sign_post_magic": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/gardens_of_the_dead/soulblight_shelf": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/fd/biomesoplenty/redwood_cabinet": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/magic_fence": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "friendsandfoes:nether/find_citadel": {
+    "criteria": {
+      "citadel": "2024-01-16 22:21:50 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/biomesoplenty/magic_trim": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "gardens_of_the_dead:recipes/building_blocks/soulblight_slab": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/faf/biomesoplenty/magic_beehive": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/gardens_of_the_dead/soulblight_trim_1": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/tw/biomesoplenty/redwood_table": {
+    "criteria": {
+      "has_planks": "2024-01-17 00:35:48 +0800"
     },
     "done": true
   },
