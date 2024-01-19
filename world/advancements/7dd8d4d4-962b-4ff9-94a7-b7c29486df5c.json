@@ -43,6 +43,7 @@
       "scrubland": "2024-01-06 19:57:12 +0800",
       "erupting_inferno": "2024-01-11 18:39:06 +0800",
       "highland": "2024-01-07 16:09:35 +0800",
+      "marsh": "2024-01-19 18:22:06 +0800",
       "jade_cliffs": "2024-01-06 19:30:01 +0800",
       "clover_patch": "2024-01-06 19:18:35 +0800",
       "mystic_grove": "2024-01-06 20:57:53 +0800",
@@ -50,8 +51,10 @@
       "crystalline_chasm": "2024-01-16 21:46:24 +0800",
       "orchard": "2024-01-06 20:01:18 +0800",
       "field": "2024-01-07 01:23:18 +0800",
+      "lavender_forest": "2024-01-19 18:24:57 +0800",
       "mediterranean_forest": "2024-01-06 20:10:08 +0800",
       "coniferous_forest": "2024-01-07 02:11:02 +0800",
+      "forested_field": "2024-01-19 18:27:00 +0800",
       "redwood_forest": "2024-01-06 19:17:44 +0800",
       "visceral_heap": "2024-01-17 13:31:29 +0800",
       "seasonal_orchard": "2024-01-07 00:31:24 +0800",
@@ -62,9 +65,11 @@
       "pumpkin_patch": "2024-01-16 22:27:53 +0800",
       "grassland": "2024-01-06 19:38:16 +0800",
       "prairie": "2024-01-07 00:32:30 +0800",
+      "glowing_grotto": "2024-01-19 18:32:36 +0800",
       "origin_valley": "2024-01-07 00:43:22 +0800",
       "undergrowth": "2024-01-07 03:22:17 +0800",
-      "rainforest": "2024-01-06 19:40:39 +0800"
+      "rainforest": "2024-01-06 19:40:39 +0800",
+      "crag": "2024-01-19 18:24:40 +0800"
     },
     "done": false
   },
@@ -1808,6 +1813,7 @@
       "minecraft:deep_lukewarm_ocean": "2024-01-06 19:35:12 +0800",
       "minecraft:flower_forest": "2024-01-07 01:27:03 +0800",
       "minecraft:old_growth_birch_forest": "2024-01-06 18:46:30 +0800",
+      "minecraft:deep_dark": "2024-01-19 18:33:15 +0800",
       "minecraft:meadow": "2024-01-07 15:38:46 +0800",
       "minecraft:savanna": "2024-01-06 20:35:37 +0800",
       "minecraft:plains": "2024-01-06 18:42:22 +0800"
@@ -4348,6 +4354,7 @@
       "minecraft:wither_skeleton": "2024-01-16 21:52:07 +0800",
       "minecraft:husk": "2024-01-07 02:14:45 +0800",
       "minecraft:ender_dragon": "2024-01-18 00:30:34 +0800",
+      "minecraft:shulker": "2024-01-19 15:19:49 +0800",
       "minecraft:cave_spider": "2024-01-08 01:45:14 +0800",
       "minecraft:piglin": "2024-01-07 03:32:12 +0800",
       "minecraft:enderman": "2024-01-09 21:50:20 +0800",
@@ -10480,6 +10487,7 @@
   },
   "repurposed_structures:mineshafts": {
     "criteria": {
+      "in_mineshaft_end": "2024-01-19 16:20:18 +0800",
       "in_mineshaft_nether": "2024-01-16 22:01:51 +0800"
     },
     "done": false
@@ -11840,27 +11848,45 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/cobbled_purpur_stairs_from_purpur_block_stonecutting": {
+  "minecraft:story/enter_the_end": {
     "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+      "entered_end": "2024-01-18 00:27:48 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+  "minecraft:end/root": {
     "criteria": {
-      "has_end_stone_bricks": "2024-01-18 00:41:12 +0800"
+      "entered_end": "2024-01-18 00:27:48 +0800"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_purpur_wall_from_purpur_block_stonecutting": {
+  "minecraft:end/kill_dragon": {
     "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+      "killed_dragon": "2024-01-18 00:30:34 +0800"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/purpur_tiles_from_purpur_block_stonecutting": {
+  "minecraft:end/enter_end_gateway": {
     "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+      "entered_end_gateway": "2024-01-18 00:34:09 +0800"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/cosmic_cod": {
+    "criteria": {
+      "capsid": "2024-01-18 00:37:10 +0800"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/enderiophage": {
+    "criteria": {
+      "killed_by": "2024-01-18 00:37:45 +0800"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/capsid": {
+    "criteria": {
+      "capsid": "2024-01-18 00:37:47 +0800"
     },
     "done": true
   },
@@ -11876,27 +11902,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/purple_candle": {
-    "criteria": {
-      "has_purple_dye": "2024-01-18 00:56:11 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/raw_purpur_stairs_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/end_stone_tile_slab_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-01-18 00:40:04 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
-    "criteria": {
-      "has_purple_dye": "2024-01-18 00:56:11 +0800"
     },
     "done": true
   },
@@ -11918,51 +11926,9 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/purpur_shingle_wall_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/purpur_shingles_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cobbled_purpur_wall_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/purpur_paver_slab_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cracked_purpur_tiles_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/end_stone_shingle_slab_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-01-18 00:40:04 +0800"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/void_worm_split": {
-    "criteria": {
-      "ex": "2024-01-18 01:26:25 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cobbled_purpur_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
     },
     "done": true
   },
@@ -11972,27 +11938,9 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/purpur_brick_slab_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
-  "minecraft:end/enter_end_gateway": {
-    "criteria": {
-      "entered_end_gateway": "2024-01-18 00:34:09 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-01-18 00:40:04 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
     },
     "done": true
   },
@@ -12002,51 +11950,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
-    "criteria": {
-      "has_end_stone_bricks": "2024-01-18 00:41:12 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_purpur_brick_wall_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/purpur_brick_wall_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/end_stone_tile_stairs_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-01-18 00:40:04 +0800"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_end": {
-    "criteria": {
-      "entered_end": "2024-01-18 00:27:48 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/combat/veridium_sword": {
-    "criteria": {
-      "has_veridium_ingot": "2024-01-18 01:48:08 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2024-01-18 00:41:12 +0800"
     },
     "done": true
   },
@@ -12056,39 +11962,9 @@
     },
     "done": true
   },
-  "sereneseasons:recipes/tools/calendar": {
-    "criteria": {
-      "has_clock": "2024-01-18 00:41:35 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/tools/veridium_pickaxe": {
-    "criteria": {
-      "has_veridium_ingot": "2024-01-18 01:48:08 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_slab": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/end_stone_plate_wall_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-01-18 00:40:04 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/tools/veridium_axe": {
-    "criteria": {
-      "has_veridium_ingot": "2024-01-18 01:48:08 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_purpur_slab_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
     },
     "done": true
   },
@@ -12116,69 +11992,15 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/purpur_shingle_slab_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/end_stone_tile_wall_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-01-18 00:40:04 +0800"
     },
     "done": true
   },
-  "alexsmobs:alexsmobs/void_worm_kill": {
-    "criteria": {
-      "ex": "2024-01-18 01:34:23 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/raw_purpur_wall_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_purple_wool": {
-    "criteria": {
-      "has_needed_dye": "2024-01-18 00:56:11 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/purpur_shingle_stairs_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/void_worm_summon": {
-    "criteria": {
-      "ex": "2024-01-18 01:25:30 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_purple_carpet": {
-    "criteria": {
-      "has_needed_dye": "2024-01-18 00:56:11 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/polished_purpur_slab_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/polished_end_stone_stairs_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-01-18 00:40:04 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/purpur_tile_slab_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
     },
     "done": true
   },
@@ -12212,33 +12034,9 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/mossy_purpur_brick_stairs_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/cosmic_cod": {
-    "criteria": {
-      "capsid": "2024-01-18 00:37:10 +0800"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/enderiophage": {
-    "criteria": {
-      "killed_by": "2024-01-18 00:37:45 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/polished_end_stone_wall_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-01-18 00:40:04 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_purpur_brick_slab_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
     },
     "done": true
   },
@@ -12248,33 +12046,9 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/raw_purpur_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/end_stone_pillar_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-01-18 00:40:04 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/purpur_paver_stairs_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/chiseled_purpur_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/purpur_brick_stairs_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
     },
     "done": true
   },
@@ -12284,39 +12058,9 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/polished_purpur_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/polished_end_stone_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-01-18 00:40:04 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_pillar": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_purpur_stairs_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/popped_chorus_fruit": {
-    "criteria": {
-      "has_chorus_fruit": "2024-01-18 00:56:14 +0800"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/crimson_mosquito_larva": {
-    "criteria": {
-      "rat_upgrade_basic": "2024-01-18 01:23:36 +0800"
     },
     "done": true
   },
@@ -12326,45 +12070,9 @@
     },
     "done": true
   },
-  "repurposed_structures:shipwrecks": {
-    "criteria": {
-      "in_shipwreck_end": "2024-01-18 00:41:12 +0800"
-    },
-    "done": false
-  },
-  "aether_redux:recipes/tools/veridium_shovel": {
-    "criteria": {
-      "has_veridium_ingot": "2024-01-18 01:48:08 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/purpur_tile_wall_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/capsid": {
-    "criteria": {
-      "capsid": "2024-01-18 00:37:47 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/end_stone_paver_stairs_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-01-18 00:40:04 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_stairs": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
-  "delightful:recipes/knives/veridium_knife": {
-    "criteria": {
-      "has_ingots/veridium": "2024-01-18 01:48:08 +0800"
     },
     "done": true
   },
@@ -12386,27 +12094,9 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/cobbled_purpur_slab_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/cobbled_end_stone_slab_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-01-18 00:40:04 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/polished_purpur_stairs_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/tools/veridium_hoe": {
-    "criteria": {
-      "has_veridium_ingot": "2024-01-18 01:48:08 +0800"
     },
     "done": true
   },
@@ -12422,21 +12112,285 @@
     },
     "done": true
   },
-  "minecraft:end/kill_dragon": {
-    "criteria": {
-      "killed_dragon": "2024-01-18 00:30:34 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/misc/veridium_nugget": {
-    "criteria": {
-      "has_veridium_ingot": "2024-01-18 01:48:08 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/end_stone_paver_wall_from_end_stone_stonecutting": {
     "criteria": {
       "has_end_stone": "2024-01-18 00:40:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-01-18 00:40:04 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-01-18 00:40:04 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_end_stone_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-01-18 00:40:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-01-18 00:41:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-01-18 00:41:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-01-18 00:41:12 +0800"
+    },
+    "done": true
+  },
+  "repurposed_structures:shipwrecks": {
+    "criteria": {
+      "in_shipwreck_end": "2024-01-18 00:41:12 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-01-18 00:41:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-01-18 00:41:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-01-18 00:41:12 +0800"
+    },
+    "done": true
+  },
+  "sereneseasons:recipes/tools/calendar": {
+    "criteria": {
+      "has_clock": "2024-01-18 00:41:35 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_purpur_wall_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_tiles_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/raw_purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_shingle_wall_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_shingles_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_purpur_wall_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_paver_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_purpur_tiles_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_purpur_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_brick_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_purpur_brick_wall_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_brick_wall_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_shingle_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/raw_purpur_wall_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_shingle_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_tile_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_purpur_brick_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_purpur_brick_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/raw_purpur_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_paver_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/chiseled_purpur_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_brick_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_purpur_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/purpur_tile_wall_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-01-18 00:41:48 +0800"
     },
     "done": true
   },
@@ -12446,33 +12400,9 @@
     },
     "done": true
   },
-  "alexsmobs:alexsmobs/mysterious_worm": {
-    "criteria": {
-      "mysterious_worm": "2024-01-18 01:25:13 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall": {
-    "criteria": {
-      "has_end_stone_bricks": "2024-01-18 00:41:12 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/purpur_tile_stairs_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/veridium_block": {
-    "criteria": {
-      "has_veridium_ingot": "2024-01-18 01:48:08 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_purple_bed": {
-    "criteria": {
-      "has_needed_dye": "2024-01-18 00:56:11 +0800"
     },
     "done": true
   },
@@ -12494,18 +12424,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2024-01-18 00:41:12 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2024-01-18 00:41:12 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/polished_purpur_wall_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-01-18 00:41:48 +0800"
@@ -12515,18 +12433,6 @@
   "stoneworks:recipes/building_blocks/purpur_bricks_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-01-18 00:41:48 +0800"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/candle_holders/candle_holder_purple_dye": {
-    "criteria": {
-      "forge:dyes/purple": "2024-01-18 00:56:11 +0800"
-    },
-    "done": true
-  },
-  "minecraft:end/root": {
-    "criteria": {
-      "entered_end": "2024-01-18 00:27:48 +0800"
     },
     "done": true
   },
@@ -12542,27 +12448,831 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-01-18 00:40:04 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_end_stone_bricks_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-01-18 00:40:04 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/mossy_cobbled_purpur_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2024-01-18 00:41:48 +0800"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/cobbled_end_stone_wall_from_end_stone_stonecutting": {
+  "minecraft:recipes/decorations/purple_candle": {
     "criteria": {
-      "has_end_stone": "2024-01-18 00:40:04 +0800"
+      "has_purple_dye": "2024-01-18 00:56:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_purple_dye": "2024-01-18 00:56:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-01-18 00:56:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-01-18 00:56:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-01-18 00:56:11 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_purple_dye": {
+    "criteria": {
+      "forge:dyes/purple": "2024-01-18 00:56:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2024-01-18 00:56:14 +0800"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/crimson_mosquito_larva": {
+    "criteria": {
+      "rat_upgrade_basic": "2024-01-18 01:23:36 +0800"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/mysterious_worm": {
+    "criteria": {
+      "mysterious_worm": "2024-01-18 01:25:13 +0800"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/void_worm_summon": {
+    "criteria": {
+      "ex": "2024-01-18 01:25:30 +0800"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/void_worm_split": {
+    "criteria": {
+      "ex": "2024-01-18 01:26:25 +0800"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/void_worm_kill": {
+    "criteria": {
+      "ex": "2024-01-18 01:34:23 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/combat/veridium_sword": {
+    "criteria": {
+      "has_veridium_ingot": "2024-01-18 01:48:08 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/tools/veridium_pickaxe": {
+    "criteria": {
+      "has_veridium_ingot": "2024-01-18 01:48:08 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/tools/veridium_axe": {
+    "criteria": {
+      "has_veridium_ingot": "2024-01-18 01:48:08 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/tools/veridium_shovel": {
+    "criteria": {
+      "has_veridium_ingot": "2024-01-18 01:48:08 +0800"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/veridium_knife": {
+    "criteria": {
+      "has_ingots/veridium": "2024-01-18 01:48:08 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/tools/veridium_hoe": {
+    "criteria": {
+      "has_veridium_ingot": "2024-01-18 01:48:08 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/misc/veridium_nugget": {
+    "criteria": {
+      "has_veridium_ingot": "2024-01-18 01:48:08 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/veridium_block": {
+    "criteria": {
+      "has_veridium_ingot": "2024-01-18 01:48:08 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_side_table": {
+    "criteria": {
+      "has_crimson_side_table": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_glazed_terracotta": {
+    "criteria": {
+      "has_purple_terracotta": "2024-01-19 17:45:08 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/tables/crimson_table_slab": {
+    "criteria": {
+      "has_bamboo": "2024-01-19 17:54:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/sign_post_crimson": {
+    "criteria": {
+      "has_planks": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "eldritch_end:recipes/building_blocks/spire_stone_slab": {
+    "criteria": {
+      "has_spire_stone": "2024-01-19 15:57:41 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sign_post_warped": {
+    "criteria": {
+      "has_the_recipe": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/crimson_banister": {
+    "criteria": {
+      "has_item": "2024-01-19 17:54:42 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/tables/warped_table": {
+    "criteria": {
+      "has_bamboo": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_corner_trim": {
+    "criteria": {
+      "has_crimson_corner_trim": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/crimson_chair": {
+    "criteria": {
+      "has_planks": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_cupboard": {
+    "criteria": {
+      "has_crimson_cupboard": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "eldritch_end:recipes/building_blocks/etyr_ingot_from_smelting_raw_etyr": {
+    "criteria": {
+      "has_raw_etyr": "2024-01-19 15:57:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2024-01-19 17:59:02 +0800"
+    },
+    "done": true
+  },
+  "eldritch_end:recipes/building_blocks/spire_stone_stairs": {
+    "criteria": {
+      "has_spire_stone": "2024-01-19 15:57:41 +0800"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/warped_shelf": {
+    "criteria": {
+      "has_planks": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/crimson_bench": {
+    "criteria": {
+      "has_slab": "2024-01-19 17:54:42 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_table": {
+    "criteria": {
+      "has_warped_table": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/decorative_blocks.general/warped_support": {
+    "criteria": {
+      "has_plank": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_dining_bench": {
+    "criteria": {
+      "has_crimson_dining_bench": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-01-19 15:33:54 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/horse_feed": {
+    "criteria": {
+      "has_golden_carrot": "2024-01-19 18:52:40 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_nightstand": {
+    "criteria": {
+      "has_warped_nightstand": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_slab": {
+    "criteria": {
+      "has_planks": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_bench": {
+    "criteria": {
+      "has_warped_bench": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_fancy_bed": {
+    "criteria": {
+      "has_warped_fancy_bed": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2024-01-19 18:05:39 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/sign_post_warped": {
+    "criteria": {
+      "has_planks": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_table": {
+    "criteria": {
+      "has_crimson_table": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2024-01-19 19:51:10 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_side_table": {
+    "criteria": {
+      "has_warped_side_table": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_desk": {
+    "criteria": {
+      "has_crimson_desk": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/warped_chair": {
+    "criteria": {
+      "has_planks": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2024-01-19 18:15:10 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_chair": {
+    "criteria": {
+      "has_warped_chair": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_stairs": {
+    "criteria": {
+      "has_planks": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/warped_sign": {
+    "criteria": {
+      "has_planks": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/basalt_blocks/polished_basalt_bricks_stonecutting": {
+    "criteria": {
+      "has_item": "2024-01-19 17:45:22 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_dining_bench": {
+    "criteria": {
+      "has_warped_dining_bench": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "repurposed_structures:pyramids": {
+    "criteria": {
+      "in_pyramid_end": "2024-01-19 19:12:29 +0800"
+    },
+    "done": false
+  },
+  "handcrafted:recipes/misc/warped_pillar_trim": {
+    "criteria": {
+      "has_warped_pillar_trim": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+    "criteria": {
+      "has_spire_armor_trim_smithing_template": "2024-01-19 15:25:31 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_desk": {
+    "criteria": {
+      "has_warped_desk": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_corner_trim": {
+    "criteria": {
+      "has_warped_corner_trim": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_block": {
+    "criteria": {
+      "has_chorus_fruit_popped": "2024-01-19 17:43:11 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/slice_map": {
+    "criteria": {
+      "has_map": "2024-01-19 17:40:56 +0800"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/crimson_shutter": {
+    "criteria": {
+      "has_slab": "2024-01-19 17:54:42 +0800"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/crimson_shelf": {
+    "criteria": {
+      "has_planks": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_couch": {
+    "criteria": {
+      "has_warped_couch": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/leather_gloves_repairing": {
+    "criteria": {
+      "has_leather_gloves": "2024-01-19 17:41:02 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_nightstand": {
+    "criteria": {
+      "has_crimson_nightstand": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_counter": {
+    "criteria": {
+      "has_warped_counter": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/diamond_axe_repairing": {
+    "criteria": {
+      "has_diamond_axe": "2024-01-19 15:56:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2024-01-19 19:47:14 +0800"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/decorative_blocks.general/crimson_seat": {
+    "criteria": {
+      "has_plank": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "cataclysm:find_ruined_citadel": {
+    "criteria": {
+      "citadel": "2024-01-19 18:58:11 +0800"
+    },
+    "done": true
+  },
+  "endlessbiomes:volcanic_glass": {
+    "criteria": {
+      "volcanic_glass": "2024-01-19 15:46:34 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_couch": {
+    "criteria": {
+      "has_crimson_couch": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2024-01-19 16:46:10 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_pillar_trim": {
+    "criteria": {
+      "has_crimson_pillar_trim": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/soul_elytra": {
+    "criteria": {
+      "has_elytra": "2024-01-19 17:59:02 +0800"
+    },
+    "done": true
+  },
+  "suppsquared:recipes/decorations/item_shelf_crimson": {
+    "criteria": {
+      "has_planks": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_sign": {
+    "criteria": {
+      "has_planks": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "endlessbiomes:glowing_green_rocks": {
+    "criteria": {
+      "glowing_green_rocks": "2024-01-19 16:56:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_door": {
+    "criteria": {
+      "has_planks": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/decorative_blocks.general/warped_seat": {
+    "criteria": {
+      "has_plank": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/golden_pickaxe_repairing": {
+    "criteria": {
+      "has_golden_pickaxe": "2024-01-19 17:47:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_rod": {
+    "criteria": {
+      "has_chorus_fruit_popped": "2024-01-19 17:43:11 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_shelf": {
+    "criteria": {
+      "has_warped_shelf": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "cataclysm:kill_ender_golem": {
+    "criteria": {
+      "endergolem": "2024-01-19 19:05:19 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sign_post_crimson": {
+    "criteria": {
+      "has_the_recipe": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/crimson_cabinet": {
+    "criteria": {
+      "has_crimson_trapdoor": "2024-01-19 18:01:53 +0800"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/decorative_blocks.general/crimson_support": {
+    "criteria": {
+      "has_plank": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_fancy_bed": {
+    "criteria": {
+      "has_crimson_fancy_bed": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_counter": {
+    "criteria": {
+      "has_crimson_counter": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_drawer": {
+    "criteria": {
+      "has_crimson_drawer": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_fence": {
+    "criteria": {
+      "has_planks": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/warped_fence": {
+    "criteria": {
+      "has_planks": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/warped_table": {
+    "criteria": {
+      "has_planks": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_cupboard": {
+    "criteria": {
+      "has_warped_cupboard": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "suppsquared:recipes/decorations/item_shelf_warped": {
+    "criteria": {
+      "has_planks": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/iron_nugget_from_blasting_knife": {
+    "criteria": {
+      "has_iron_knife": "2024-01-19 15:25:07 +0800"
+    },
+    "done": true
+  },
+  "deeperdarker:main/root": {
+    "criteria": {
+      "deep_dark": "2024-01-19 18:33:15 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_button": {
+    "criteria": {
+      "has_planks": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/golden_shovel_repairing": {
+    "criteria": {
+      "has_golden_shovel": "2024-01-19 17:47:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_stairs": {
+    "criteria": {
+      "has_planks": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2024-01-19 15:39:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:end/levitate": {
+    "criteria": {
+      "levitated": "2024-01-19 15:30:18 +0800"
+    },
+    "done": true
+  },
+  "endlessbiomes:a_noble_sacrifice": {
+    "criteria": {
+      "a_noble_sacrifice": "2024-01-19 15:46:27 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/basalt_blocks/polished_basalt_bricks": {
+    "criteria": {
+      "has_item": "2024-01-19 17:45:22 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/iron_nugget_from_smelting_knife": {
+    "criteria": {
+      "has_iron_knife": "2024-01-19 15:25:07 +0800"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/sunbird_blessing": {
+    "criteria": {
+      "all_effects": "2024-01-19 18:27:06 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_shelf": {
+    "criteria": {
+      "has_crimson_shelf": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "cataclysm:find_ancient_factory": {
+    "criteria": {
+      "factory": "2024-01-19 18:33:54 +0800"
+    },
+    "done": true
+  },
+  "eldritch_end:recipes/building_blocks/polished_spire_stone": {
+    "criteria": {
+      "has_spire_stone": "2024-01-19 15:57:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "repurposed_structures:ruined_portal_end": {
+    "criteria": {
+      "in_ruined_portal_end": "2024-01-19 17:47:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_button": {
+    "criteria": {
+      "has_planks": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cooked_rice": {
+    "criteria": {
+      "has_rice": "2024-01-19 16:21:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_door": {
+    "criteria": {
+      "has_planks": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/tables/crimson_table": {
+    "criteria": {
+      "has_the_recipe": "2024-01-19 17:54:42 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_chair": {
+    "criteria": {
+      "has_crimson_chair": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/crimson_table": {
+    "criteria": {
+      "has_planks": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2024-01-19 15:19:01 +0800"
+    },
+    "done": true
+  },
+  "eldritch_end:recipes/building_blocks/etyr_ingot_from_blasting_raw_etyr": {
+    "criteria": {
+      "has_raw_etyr": "2024-01-19 15:57:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_slab": {
+    "criteria": {
+      "has_planks": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/crimson_bench": {
+    "criteria": {
+      "has_crimson_bench": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_drawer": {
+    "criteria": {
+      "has_warped_drawer": "2024-01-19 15:25:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-01-19 15:25:31 +0800"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/crimson_flower_box": {
+    "criteria": {
+      "has_slab": "2024-01-19 17:54:42 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/rice_bag": {
+    "criteria": {
+      "has_rice": "2024-01-19 16:21:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-01-19 17:57:53 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/golden_hoe_repairing": {
+    "criteria": {
+      "has_golden_hoe": "2024-01-19 19:47:14 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/diamond_shovel_repairing": {
+    "criteria": {
+      "has_diamond_shovel": "2024-01-19 16:56:01 +0800"
     },
     "done": true
   },

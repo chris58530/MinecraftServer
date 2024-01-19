@@ -14066,5 +14066,29 @@
     },
     "done": true
   },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2024-01-19 20:06:48 +0800"
+    },
+    "done": true
+  },
+  "cataclysm:find_ruined_citadel": {
+    "criteria": {
+      "citadel": "2024-01-19 20:19:00 +0800"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/soul_elytra": {
+    "criteria": {
+      "has_elytra": "2024-01-19 20:06:48 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/leather_leggings_repairing": {
+    "criteria": {
+      "has_leather_leggings": "2024-01-19 19:57:55 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

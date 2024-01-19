@@ -3102,15 +3102,18 @@
       "minecraft:pillager": "2024-01-06 20:21:48 +0800",
       "minecraft:skeleton": "2024-01-06 22:50:59 +0800",
       "minecraft:hoglin": "2024-01-08 04:13:11 +0800",
+      "minecraft:vindicator": "2024-01-18 03:50:18 +0800",
       "minecraft:magma_cube": "2024-01-08 04:11:38 +0800",
       "minecraft:spider": "2024-01-06 21:25:56 +0800",
       "minecraft:creeper": "2024-01-06 21:50:25 +0800",
+      "minecraft:evoker": "2024-01-18 03:52:01 +0800",
       "minecraft:phantom": "2024-01-09 02:06:04 +0800",
       "minecraft:zombified_piglin": "2024-01-17 04:54:08 +0800",
       "minecraft:husk": "2024-01-07 02:15:28 +0800",
       "minecraft:piglin": "2024-01-08 04:13:29 +0800",
       "minecraft:enderman": "2024-01-06 23:59:10 +0800",
       "minecraft:silverfish": "2024-01-09 00:46:35 +0800",
+      "minecraft:vex": "2024-01-18 03:51:50 +0800",
       "minecraft:zombie": "2024-01-06 22:42:33 +0800",
       "minecraft:zombie_villager": "2024-01-09 00:39:43 +0800"
     },
@@ -11274,6 +11277,180 @@
   "twilightforest:recipes/decorations/firefly_particle_spawner": {
     "criteria": {
       "has_jar": "2024-01-17 21:03:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_candle": {
+    "criteria": {
+      "has_purple_dye": "2024-01-18 03:40:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_purple_dye": "2024-01-18 03:40:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-01-18 03:40:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-01-18 03:40:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-01-18 03:40:29 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2024-01-18 03:41:25 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/netherite_chestplate_repairing": {
+    "criteria": {
+      "has_netherite_chestplate": "2024-01-18 03:42:36 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/netherite_leggings_repairing": {
+    "criteria": {
+      "has_netherite_leggings": "2024-01-18 03:42:46 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/netherite_boots_repairing": {
+    "criteria": {
+      "has_netherite_boots": "2024-01-18 03:46:03 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/netherite_helmet_repairing": {
+    "criteria": {
+      "has_netherite_helmet": "2024-01-18 03:46:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2024-01-18 03:46:07 +0800"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_all_illager_structures": {
+    "criteria": {
+      "illager_camp": "2024-01-18 03:49:46 +0800"
+    },
+    "done": false
+  },
+  "friendsandfoes:adventure/the_magicians": {
+    "criteria": {
+      "killed_evoker": "2024-01-18 03:52:01 +0800"
+    },
+    "done": false
+  },
+  "voidtotem:recipes/combat/totem_of_void_undying": {
+    "criteria": {
+      "has_totem": "2024-01-18 03:52:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2024-01-18 03:52:51 +0800"
+    },
+    "done": true
+  },
+  "sereneseasons:recipes/tools/calendar": {
+    "criteria": {
+      "has_clock": "2024-01-18 03:53:31 +0800"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/lodestone": {
+    "criteria": {
+      "has_chiseled_stone_bricks": "2024-01-19 00:45:50 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/combat/veridium_sword": {
+    "criteria": {
+      "has_veridium_ingot": "2024-01-19 01:10:10 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/tools/veridium_pickaxe": {
+    "criteria": {
+      "has_veridium_ingot": "2024-01-19 01:10:10 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/tools/veridium_axe": {
+    "criteria": {
+      "has_veridium_ingot": "2024-01-19 01:10:10 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/tools/veridium_shovel": {
+    "criteria": {
+      "has_veridium_ingot": "2024-01-19 01:10:10 +0800"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/veridium_knife": {
+    "criteria": {
+      "has_ingots/veridium": "2024-01-19 01:10:10 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/tools/veridium_hoe": {
+    "criteria": {
+      "has_veridium_ingot": "2024-01-19 01:10:10 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/misc/veridium_nugget": {
+    "criteria": {
+      "has_veridium_ingot": "2024-01-19 01:10:10 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/veridium_block": {
+    "criteria": {
+      "has_veridium_ingot": "2024-01-19 01:10:10 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/ambrosium_torch": {
+    "criteria": {
+      "has_holystone_pickaxe": "2024-01-19 01:16:28 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/holystone_pickaxe_repairing": {
+    "criteria": {
+      "has_holystone_pickaxe": "2024-01-19 01:16:28 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/zanite_shovel_repairing": {
+    "criteria": {
+      "has_zanite_shovel": "2024-01-19 01:16:53 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/fancy_painting": {
+    "criteria": {
+      "has_fancy_painting": "2024-01-19 03:49:11 +0800"
     },
     "done": true
   },
